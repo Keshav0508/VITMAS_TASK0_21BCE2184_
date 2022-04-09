@@ -1,0 +1,31 @@
+git config –global user.name Keshav0508 – For configuring the name
+git config –global user.email gkeshav717@gmail.com – to set the email
+git config –global user.name – For checking the changes have been impleted
+git config –global user.email - For checking the changes have been affected
+code . – This is used to open the VS Code
+git init – To initialize the empty git repository
+ls -lart – To see the Hidden files
+git status – To check the status of the files
+git add "name".html(extention) – this is used to track the created file.
+git commit – to send the staged files to commit
+touch new.html -to create a empty file named with new and of extension (of your choice)
+git add -A – To make the all the files to be tracked
+clear – to clear the previous files
+git commit - to commit the files
+git commit -m “Any Commit message” – to add the commit and message shortcut
+git checkout filename -files changes revert to last commit
+git checkout -f :this is applied to all files to bring the recent unsaved changes but the commit must have be made for all these files.
+git log -what commits you have written
+git log -p -no.ofcommits : For seeing specific no. of commit information
+git diff - compares working tree with staging area
+git diff --staged -compares staging area with last commit
+git commit -a -m “msg” -skip staging area and direct commit the changes
+git rm -filename remove file from hard disk
+git rm –cached filename- remove file from git tracking tree
+touch .gitignore : to create a git ignore file
+git branch branchName-create branch
+git branch -shows total branches and currently we are where
+git checkout branchName-switched to this branch
+git checkout master -switched to master branch
+git merge branchName -when you are in master branch then you can use it to merge your branch with master
+git checkout -b branchName -branch is created and switched to this branch
